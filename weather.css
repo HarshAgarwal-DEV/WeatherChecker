@@ -6,11 +6,15 @@
 
 body {
     font-family: 'montserrat', sans-serif;
-    background-image: url(https://images.unsplash.com/photo-1566996694954-90b052c413c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-image: url(giphy.gif);
     background-size: cover;
     background-position: top center;
 }
-
+@media only screen and (max-width: 600px) {
+    body {
+      background-image:url(giphy1.gif);
+    }
+  }
 .app-wrap {
     display: flex;
     flex-direction: column;
